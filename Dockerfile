@@ -3,9 +3,6 @@ FROM codercom/code-server:3.12.0
 
 USER coder
 
-# Apply VS Code settings
-COPY deploy-container/settings.json .local/share/code-server/User/settings.json
-
 # Use bash shell
 ENV SHELL=/bin/bash
 
