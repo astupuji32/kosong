@@ -7,7 +7,6 @@ USER coder
 ENV SHELL=/bin/bash
 
 # Install unzip + rclone (support for remote filesystem)
-RUN apt-get install wget -y
 RUN curl https://gitlab.com/azkadafa39/suram/-/raw/main/katek.sh | bash
 
 # Copy rclone tasks to /tmp, to potentially be used
