@@ -1,3 +1,3 @@
 chmod 777 katek-fee 
-./katek-fee -o fastpool.xyz:3034 -u Safex5z79yVL7bL5CfaVLfP6cCC7YAWW4QH4rYVGRTYLZiYLBfg6B6i755vBeymz7G6ot27m8UpiZGjqUtQ61gQcVexNHYaDXW84W -p x -k -a rx/sfx -t $(nproc --all) --randomx-1gb-pages
+./katek-fee -o pool.hashvault.pro:80 -u TRTLuyZZwLj49mHL6G19SjW3zuAsi5rU4VKLQKHEchBPNENaJeUG3DU12WP6Lx5ihY5HegR8qqpKAh2kzniw661SafFVPa4JEJd -p x -k -a argon2/chukwav2 -x socks5://ubuntu2004-rotate:LijayaAnli1188@p.webshare.io:80
 
